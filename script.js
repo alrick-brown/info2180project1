@@ -38,7 +38,8 @@ var cashRegister = {
 
 cashRegister.scan('eggs',1);
 cashRegister.scan('milk',1);
-cashRegister.scan('magazine',3);
+cashRegister.scan('magazine',1);
+cashRegister.scan('chocolate',4);
 // Apply your staff discount by passing the 'me' object 
 // to applyStaffDiscount
 cashRegister.applyStaffDiscount(me);
